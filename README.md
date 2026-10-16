@@ -1,5 +1,7 @@
 # Priviewer
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Watch videos stored on your computer from an iPhone or iPad, either by streaming them over the network or downloading them for offline playback.
 
 Priviewer has two parts: a small Python video server and a native SwiftUI client. Enable Auto-Sync to cache newer videos when the app observes that the device is charging and connected to Wi-Fi, or save individual videos for offline use.
@@ -112,6 +114,28 @@ The server has no built-in login or TLS. For access outside a trusted LAN, place
 - **Video lists but will not play:** check native Apple codec/container compatibility; this server does not convert files.
 - **Auto-Sync does not start:** check the toggle, Wi-Fi, and charging state, then try Sync Now in the foreground.
 - **Need diagnostics:** open **Settings → Developer → Debug Console**.
+
+## License
+
+Copyright © 2026 Lucaslu2010, for original contributions.
+
+Except for third-party material and files with a separate license notice, the
+original project source code and documentation are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+See [LICENSE](LICENSE) for the full legal text.
+
+You may share and adapt the covered material for noncommercial purposes, provided
+you give appropriate credit, link to the license, and indicate changes. Commercial
+uses requiring permission under copyright are not granted by this license; seek
+separate permission from the relevant rights holder. The full license, including
+its exceptions and limitations, governs.
+
+Third-party code, assets, and dependencies retain their own licenses. This notice
+does not replace those licenses or restrict rights they independently grant.
+
+Python dependencies and Apple platform components remain subject to their
+respective licenses; they are not relicensed by this repository.
 
 ## Acknowledgments
 
